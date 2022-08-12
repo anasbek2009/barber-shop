@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+    padding: 0px 10%;
+    display: flex;
+}
+.collection{
+    display: flex;
+    margin-left: 80px;
+    list-style: none;
+    flex: 1;
+
+}
+.item{
+    margin-left: 6px;
+    font-size: 22px;
+    padding: 75px 10px 20px 10px;
+    border-radius: 0px 0px 6px 6px;
+    transition: 0.3s;
+    font-weight: 100;
+}
+.item:hover{
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+.btn{
+    padding: 12px 30px;
+    border-radius: 16px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 18px;
+    border-color: white;
+}
+.nav_btns{
+    display: flex;
+    align-items: center;
+    padding-top: 56px;
+}
+.nav_btns img{
+    width: 35px;
+    margin-right: 30px;
+}
+.banner{
+    padding-left: 10%;
+    height: 600px;
+    display: flex;
+
+}
+
+.banner_text{
+    width: 40%;
+    height: 100%;
+}
+.banner_text h1{
+    font-size: 60px;
+    font-weight: 400;
+    padding-top: 50px;
+    color: #163561;
+}
+.banner_text p{
+    padding: 30px 0px;
+    font-weight: 100;
+    width: 60%;
+}
+.banner_text h1 span{
+    color: gold;
+}
+
+.banner_image{
+    width: 60%;
+    height: 100%;
+    background-image: url(./img/banner1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.arber{
+    transform: translateX(-18px);
+
+}
+.scissors{
+    transition: 0.5s;
+}
+.logo:hover .scissors{
+    transform: rotate(-30deg);  translateX(-20px);
+}
+.div{
+    height: 900px;
+    display: flex;
+
+}
+.banne-image{
+    width: 60%;
+    height: 100%;
+    background-image: url(./img/banner2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transition-duration: 1S;
+}
+.box{
+    width: 40%;
+    height: 100%;
+}
+.box h1 {
+    font-size: 80px;
+    font-weight: 400;
+    padding-top: 50px;
+    color: #163561; 
+
+}
+.box h1 span{
+    color: gold;
+}
+.box h4{
+    font-size: 30px;
+    font-weight: 200;
+    padding-top: 20px;
+    width: 70%;
+    color: #163561;
+}
+.bn{
+    width: 200px;
+    height: 70px;
+    border-radius: 16px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 18px;
+    border-color: white;
+}
+.dik{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    display: flex;
+}
+.w1{
+    text-align: center;
+    transform: translateX(+720px);
+    font-size: 40px;
+}
+.w1 span{
+    color: gold;
+}
+.fi{
+    width: 30%;
+    height: 600px;
+    margin-top: 150px;
+    border-bottom: 3px solid #163561;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    transition: 0.5s;
+}
+.di{
+    width: 30%;
+    height: 600px;
+    background-color: whitesmoke;
+    margin-top: 150px;
+    margin-left: 25px;
+    border-bottom: 3px solid #163561;
+    border-radius: 25px;
+    transition: 0.5s;
+
+
+}
+.li{
+    width: 30%;
+    height: 600px;
+    background-color: whitesmoke;
+    margin-top: 150px;
+    margin-top: 150px;
+    margin-left: 25px;
+    border-bottom: 3px solid #163561;
+    border-radius: 25px;
+    margin-right: 120px;
+    transition: 0.5s;
+    
+}
+.svg{
+    padding-left: 170px;
+    padding-top: 30px;
+}
+.fi h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 130px;
+    margin-left: 140px;
+}
+.fi p{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+
+}
+.fi:hover{
+    background-color: cornflowerblue;
+    color: black;
+}
+.svj{
+    padding-left: 160px;
+    padding-top: 20px;
+}
+.di h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 130px;
+    margin-left: 140px;
+}
+.di p{
+    text-align: center;
+    margin-top: 30px;
+    color: white;   
+}
+.di:hover{
+    background-color: cornflowerblue;
+    color: black;
+}
+.li h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 170px;
+    margin-left: 130px;
+}
+.li p{
+    text-align: center;
+    margin-top: 50px;
+    color: white; 
+}
+.li:hover{
+    background-color: cornflowerblue;
+    color: black;
+}
+.main{
+    width: 100%;
+    height: 800px;
+    
+}
+.main{
+    width: 100%;
+    height: 800px;
+ ;
+}
+.main h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+.main h1 span{
+    color: gold;
+}
+.crs{
+    width: 500px;
+    height: 400px;
+    margin-top: 100px;
+    margin: auto;
+}
+.src{
+    width: 500px;
+    height: 400px;
+    margin-top: 100px;
+}
+.lkj{
+    width: 600px;
+    height: 400px;
+    margin-top: 100px;
+    padding-right: 100px;
+   
+}
+.vash{
+    width: 100%;
+    height: 600px;
+}
+.bvc{
+    width: 200px;
+    height: 50px;
+    border-radius: 16px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 18px;
+    border-color: white;
+    margin-top: 50px;
+    margin-left: 45%;
+}
+.ihg{
+   padding-top: 200px; 
+   margin-left: 45%;
+}
+.vash p{
+    color: gray;
+    width: 350px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 41%;
+    font-weight: 100;
+}
+.vash i{
+    font-size: 30px;
+}
+.r{
+    border-radius: 50%;
+    width: 70px;
+    height: 80px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    margin-left: 700px;
+    
+}
+.a{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    margin-top: 30px; 
+    margin-left: 5px;
+}
+.il{
+    border-radius: 50%;
+    width: 70px;
+    height: 100px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    margin-top: 30px; 
+}
